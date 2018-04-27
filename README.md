@@ -6,8 +6,8 @@
 - A website that takes user input and counts instances of a specific word.
 
 ##### Specs
-* Test to check if user input function works
-* Test to check instances of letter combinations, output such as "xx" or "yy"
+* Test to check if user word function works
+* Test to check if word finding works
 * Test to find word, so if string such as "dog" is expected it will return "dog"
 * Function that takes word from user input
 
