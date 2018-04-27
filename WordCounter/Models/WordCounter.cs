@@ -36,6 +36,17 @@ namespace WordCounter.Models
       }
       return _count;
     }
-
+    
+    public int HowManyWordsFix()
+    {
+      foreach(string word in _sentence.ToLower().Split())
+      {
+        if (word == _findWord.ToLower())
+        {
+          _count++;
+        }
+      }
+      return _count;
+    }
   }
 }
