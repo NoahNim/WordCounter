@@ -8,7 +8,7 @@ namespace WordCounter.Models
   {
     private string _sentence;
     private string _findWord;
-    private int _count = 0;
+    public int _count = 0;
 
     public RepeatCounter(string sentence, string findWord)
     {
@@ -36,7 +36,7 @@ namespace WordCounter.Models
       }
       return _count;
     }
-    
+
     public int HowManyWordsFix()
     {
       foreach(string word in _sentence.ToLower().Split())

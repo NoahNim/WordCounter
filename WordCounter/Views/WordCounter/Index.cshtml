@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <h3>This site will count words!</h3>
+  <form action="/wordcount" method="post">
+    <label for="input-text">Please put in a sentence: </label>
+    <input type="text" name="input-text" id="input-sentence">
+    <label for="input-word">What word do you wanna count? </label>
+    <input type="text" name="input-word" id="input-word">
+    <br>
+    <button id="submit" class="btn btn-primary" type="submit">Word Count</button>
+  </form>
+
+  <div id="output">
+    @if (Model != null)
+    {
+    <h2> @Model.SearchWord() is found: </h2>
+    <p> @Model.HowManyWords() </p> <p> times </p> 
+    }
+  </div>
+</html>
