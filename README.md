@@ -9,7 +9,7 @@
 * Test to check if user word function works
 * Test to check if word finding works
 * Test to find word, so if string such as "dog" is expected it will return "dog"
-* Function that takes word from user input
+* Test to check for uppercase letters
 
 ##### Setup/Installation Requirements
 * .NET
