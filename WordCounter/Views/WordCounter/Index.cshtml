@@ -11,7 +11,7 @@
   </form>
 
   <div id="output">
-    @if (Model != null)
+    @if (@Model != null)
     {
     <h2> @Model.SearchWord() is found: </h2>
     <p> @Model.HowManyWords() </p> <p> times </p> 
